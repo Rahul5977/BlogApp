@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    Blog App 
+    <h1><div>Blog App with Appwriter as backend as a service </div></h1>
     </>
   )
 }

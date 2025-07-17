@@ -126,7 +126,7 @@ export class AppwriteService {
       console.error("Error fetching file:", error);
       throw new Error("Failed to fetch file");
     }
-}
+  }
   async getFiles() {
     try {
       return await this.bucket.listFiles(config.appwriteBucketId, 100, 0);
@@ -135,9 +135,6 @@ export class AppwriteService {
       throw new Error("Failed to fetch files");
     }
   }
-  
 }
-
-
 
 export default new AppwriteService();
